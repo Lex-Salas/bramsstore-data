@@ -1,0 +1,487 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-01-17T21:30:00.000Z",
+    "totalOrders": 3,
+    "totalRevenue": 2175000,
+    "averageOrderValue": 725000,
+    "pendingOrders": 1,
+    "completedOrders": 1,
+    "shippedOrders": 1,
+    "currency": "CRC",
+    "syncStatus": "synced"
+  },
+  "orders": [
+    {
+      "id": "ORD-001",
+      "orderNumber": "BS-2025-001",
+      "status": "pending",
+      "paymentStatus": "pending",
+      "shippingStatus": "not_shipped",
+      "customer": {
+        "id": "cust_001",
+        "firstName": "María",
+        "lastName": "González",
+        "fullName": "María González",
+        "email": "maria@email.com",
+        "phone": "+506 8888-9999",
+        "document": "1-1234-5678",
+        "type": "regular"
+      },
+      "billing": {
+        "firstName": "María",
+        "lastName": "González",
+        "email": "maria@email.com",
+        "phone": "+506 8888-9999",
+        "address": {
+          "line1": "Avenida Central 123",
+          "line2": "Apartamento 4B",
+          "city": "San José",
+          "state": "San José",
+          "zipCode": "10101",
+          "country": "CR",
+          "countryName": "Costa Rica"
+        }
+      },
+      "shipping": {
+        "firstName": "María",
+        "lastName": "González",
+        "phone": "+506 8888-9999",
+        "address": {
+          "line1": "Avenida Central 123",
+          "line2": "Apartamento 4B",
+          "city": "San José",
+          "state": "San José",
+          "zipCode": "10101",
+          "country": "CR",
+          "countryName": "Costa Rica"
+        },
+        "method": "standard",
+        "methodName": "Envío Estándar (3-5 días)",
+        "cost": 5000,
+        "estimatedDelivery": "2025-01-22",
+        "trackingNumber": null,
+        "carrier": "Correos de Costa Rica"
+      },
+      "items": [
+        {
+          "id": "item_001",
+          "productId": "prod_001",
+          "sku": "IP15P-128",
+          "name": "iPhone 15 Pro",
+          "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=300&h=300&fit=crop",
+          "quantity": 1,
+          "unitPrice": 650000,
+          "totalPrice": 650000,
+          "cost": 500000,
+          "profit": 150000,
+          "specifications": {
+            "storage": "128GB",
+            "color": "Natural Titanium"
+          }
+        },
+        {
+          "id": "item_002",
+          "productId": "prod_003",
+          "sku": "APP2-WHITE",
+          "name": "AirPods Pro 2",
+          "image": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=300&h=300&fit=crop",
+          "quantity": 1,
+          "unitPrice": 125000,
+          "totalPrice": 125000,
+          "cost": 80000,
+          "profit": 45000,
+          "specifications": {
+            "color": "White"
+          }
+        }
+      ],
+      "pricing": {
+        "subtotal": 775000,
+        "tax": 0,
+        "taxRate": 0,
+        "shipping": 5000,
+        "discount": 0,
+        "discountCode": null,
+        "total": 780000,
+        "currency": "CRC",
+        "totalCost": 580000,
+        "totalProfit": 195000,
+        "profitMargin": 25.0
+      },
+      "payment": {
+        "method": "sinpe_movil",
+        "methodName": "SINPE Móvil",
+        "status": "pending",
+        "transactionId": null,
+        "referenceNumber": "SM-2025-001",
+        "paidAt": null,
+        "amount": 780000,
+        "currency": "CRC",
+        "gateway": "sinpe",
+        "fees": 0
+      },
+      "notes": {
+        "customer": "Por favor entregar después de las 2 PM",
+        "internal": "Cliente VIP - priorizar envío",
+        "admin": "Pendiente confirmación de pago SINPE"
+      },
+      "history": [
+        {
+          "status": "created",
+          "timestamp": "2025-01-15T14:30:00.000Z",
+          "user": "system",
+          "note": "Pedido creado automáticamente desde la tienda online"
+        },
+        {
+          "status": "pending",
+          "timestamp": "2025-01-15T14:35:00.000Z",
+          "user": "admin",
+          "note": "Esperando confirmación de pago SINPE Móvil"
+        }
+      ],
+      "analytics": {
+        "source": "website",
+        "campaign": "summer_sale_2025",
+        "device": "desktop",
+        "browser": "Chrome",
+        "referrer": "https://www.google.com",
+        "utm": {
+          "source": "google",
+          "medium": "organic",
+          "campaign": null
+        }
+      },
+      "timestamps": {
+        "created": "2025-01-15T14:30:00.000Z",
+        "updated": "2025-01-17T10:15:00.000Z",
+        "expectedDelivery": "2025-01-22T23:59:59.000Z"
+      }
+    },
+    {
+      "id": "ORD-002",
+      "orderNumber": "BS-2025-002",
+      "status": "completed",
+      "paymentStatus": "paid",
+      "shippingStatus": "delivered",
+      "customer": {
+        "id": "cust_002",
+        "firstName": "Carlos",
+        "lastName": "Rodríguez",
+        "fullName": "Carlos Rodríguez",
+        "email": "carlos@email.com",
+        "phone": "+506 7777-8888",
+        "document": "2-2345-6789",
+        "type": "vip"
+      },
+      "billing": {
+        "firstName": "Carlos",
+        "lastName": "Rodríguez",
+        "email": "carlos@email.com",
+        "phone": "+506 7777-8888",
+        "address": {
+          "line1": "Calle 5, Avenida 10",
+          "line2": "Edificio Torre Norte, Piso 8",
+          "city": "Cartago",
+          "state": "Cartago",
+          "zipCode": "30101",
+          "country": "CR",
+          "countryName": "Costa Rica"
+        }
+      },
+      "shipping": {
+        "firstName": "Carlos",
+        "lastName": "Rodríguez",
+        "phone": "+506 7777-8888",
+        "address": {
+          "line1": "Calle 5, Avenida 10",
+          "line2": "Edificio Torre Norte, Piso 8",
+          "city": "Cartago",
+          "state": "Cartago",
+          "zipCode": "30101",
+          "country": "CR",
+          "countryName": "Costa Rica"
+        },
+        "method": "express",
+        "methodName": "Envío Express (1-2 días)",
+        "cost": 15000,
+        "estimatedDelivery": "2025-01-16",
+        "actualDelivery": "2025-01-16T16:30:00.000Z",
+        "trackingNumber": "CR-EXP-2025-002",
+        "carrier": "Courier Express CR"
+      },
+      "items": [
+        {
+          "id": "item_003",
+          "productId": "prod_002",
+          "sku": "MBP14-M3",
+          "name": "MacBook Pro 14\"",
+          "image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=300&h=300&fit=crop",
+          "quantity": 1,
+          "unitPrice": 1200000,
+          "totalPrice": 1200000,
+          "cost": 900000,
+          "profit": 300000,
+          "specifications": {
+            "processor": "M3",
+            "ram": "16GB",
+            "storage": "512GB",
+            "color": "Space Black"
+          }
+        }
+      ],
+      "pricing": {
+        "subtotal": 1200000,
+        "tax": 0,
+        "taxRate": 0,
+        "shipping": 15000,
+        "discount": 15000,
+        "discountCode": "VIP10",
+        "total": 1200000,
+        "currency": "CRC",
+        "totalCost": 900000,
+        "totalProfit": 285000,
+        "profitMargin": 23.75
+      },
+      "payment": {
+        "method": "credit_card",
+        "methodName": "Tarjeta de Crédito",
+        "status": "paid",
+        "transactionId": "txn_abc123def456",
+        "referenceNumber": "CC-2025-002",
+        "paidAt": "2025-01-14T15:45:00.000Z",
+        "amount": 1200000,
+        "currency": "CRC",
+        "gateway": "stripe",
+        "fees": 24000,
+        "cardLast4": "4321",
+        "cardBrand": "Visa"
+      },
+      "notes": {
+        "customer": "Empresa - factura a nombre de TechCorp S.A.",
+        "internal": "Cliente VIP con descuento aplicado",
+        "admin": "Entregado exitosamente - cliente muy satisfecho"
+      },
+      "history": [
+        {
+          "status": "created",
+          "timestamp": "2025-01-14T15:20:00.000Z",
+          "user": "system",
+          "note": "Pedido creado desde tienda online"
+        },
+        {
+          "status": "paid",
+          "timestamp": "2025-01-14T15:45:00.000Z",
+          "user": "system",
+          "note": "Pago confirmado con tarjeta Visa ****4321"
+        },
+        {
+          "status": "processing",
+          "timestamp": "2025-01-14T16:00:00.000Z",
+          "user": "admin",
+          "note": "Preparando paquete para envío express"
+        },
+        {
+          "status": "shipped",
+          "timestamp": "2025-01-15T09:30:00.000Z",
+          "user": "admin",
+          "note": "Enviado vía Courier Express - Tracking: CR-EXP-2025-002"
+        },
+        {
+          "status": "delivered",
+          "timestamp": "2025-01-16T16:30:00.000Z",
+          "user": "carrier",
+          "note": "Entregado exitosamente - Recibido por Carlos Rodríguez"
+        },
+        {
+          "status": "completed",
+          "timestamp": "2025-01-16T18:00:00.000Z",
+          "user": "system",
+          "note": "Pedido marcado como completado automáticamente"
+        }
+      ],
+      "analytics": {
+        "source": "website",
+        "campaign": "macbook_promo_2025",
+        "device": "mobile",
+        "browser": "Safari",
+        "referrer": "https://www.facebook.com",
+        "utm": {
+          "source": "facebook",
+          "medium": "social",
+          "campaign": "macbook_ads"
+        }
+      },
+      "timestamps": {
+        "created": "2025-01-14T15:20:00.000Z",
+        "updated": "2025-01-16T18:00:00.000Z",
+        "completed": "2025-01-16T18:00:00.000Z"
+      }
+    },
+    {
+      "id": "ORD-003",
+      "orderNumber": "BS-2025-003",
+      "status": "shipped",
+      "paymentStatus": "paid",
+      "shippingStatus": "in_transit",
+      "customer": {
+        "id": "cust_003",
+        "firstName": "Ana",
+        "lastName": "Jiménez",
+        "fullName": "Ana Jiménez",
+        "email": "ana@email.com",
+        "phone": "+506 6666-7777",
+        "document": "3-3456-7890",
+        "type": "regular"
+      },
+      "billing": {
+        "firstName": "Ana",
+        "lastName": "Jiménez",
+        "email": "ana@email.com",
+        "phone": "+506 6666-7777",
+        "address": {
+          "line1": "Barrio Los Ángeles, Casa 456",
+          "line2": null,
+          "city": "Alajuela",
+          "state": "Alajuela",
+          "zipCode": "20101",
+          "country": "CR",
+          "countryName": "Costa Rica"
+        }
+      },
+      "shipping": {
+        "firstName": "Ana",
+        "lastName": "Jiménez",
+        "phone": "+506 6666-7777",
+        "address": {
+          "line1": "Barrio Los Ángeles, Casa 456",
+          "line2": null,
+          "city": "Alajuela",
+          "state": "Alajuela",
+          "zipCode": "20101",
+          "country": "CR",
+          "countryName": "Costa Rica"
+        },
+        "method": "standard",
+        "methodName": "Envío Estándar (3-5 días)",
+        "cost": 5000,
+        "estimatedDelivery": "2025-01-18",
+        "trackingNumber": "CR-STD-2025-003",
+        "carrier": "Correos de Costa Rica",
+        "lastUpdate": "2025-01-17T14:00:00.000Z",
+        "lastLocation": "Centro de Distribución Alajuela"
+      },
+      "items": [
+        {
+          "id": "item_004",
+          "productId": "prod_003",
+          "sku": "APP2-WHITE",
+          "name": "AirPods Pro 2",
+          "image": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=300&h=300&fit=crop",
+          "quantity": 2,
+          "unitPrice": 125000,
+          "totalPrice": 250000,
+          "cost": 160000,
+          "profit": 90000,
+          "specifications": {
+            "color": "White"
+          }
+        }
+      ],
+      "pricing": {
+        "subtotal": 250000,
+        "tax": 0,
+        "taxRate": 0,
+        "shipping": 5000,
+        "discount": 5000,
+        "discountCode": "WELCOME5",
+        "total": 250000,
+        "currency": "CRC",
+        "totalCost": 160000,
+        "totalProfit": 85000,
+        "profitMargin": 34.0
+      },
+      "payment": {
+        "method": "paypal",
+        "methodName": "PayPal",
+        "status": "paid",
+        "transactionId": "PP-abc789xyz123",
+        "referenceNumber": "PP-2025-003",
+        "paidAt": "2025-01-13T11:20:00.000Z",
+        "amount": 250000,
+        "currency": "CRC",
+        "gateway": "paypal",
+        "fees": 7500,
+        "paypalEmail": "ana@email.com"
+      },
+      "notes": {
+        "customer": "Regalo para mi hermana - por favor empacar especial",
+        "internal": "Empaque de regalo solicitado",
+        "admin": "En tránsito - llegada estimada mañana"
+      },
+      "history": [
+        {
+          "status": "created",
+          "timestamp": "2025-01-13T11:15:00.000Z",
+          "user": "system",
+          "note": "Pedido creado desde tienda online"
+        },
+        {
+          "status": "paid",
+          "timestamp": "2025-01-13T11:20:00.000Z",
+          "user": "system",
+          "note": "Pago confirmado vía PayPal"
+        },
+        {
+          "status": "processing",
+          "timestamp": "2025-01-13T14:00:00.000Z",
+          "user": "ana_editor",
+          "note": "Preparando con empaque especial de regalo"
+        },
+        {
+          "status": "shipped",
+          "timestamp": "2025-01-14T10:30:00.000Z",
+          "user": "admin",
+          "note": "Enviado con empaque de regalo - Tracking: CR-STD-2025-003"
+        }
+      ],
+      "analytics": {
+        "source": "website",
+        "campaign": "airpods_bundle_2025",
+        "device": "tablet",
+        "browser": "Chrome",
+        "referrer": "https://www.instagram.com",
+        "utm": {
+          "source": "instagram",
+          "medium": "social",
+          "campaign": "airpods_stories"
+        }
+      },
+      "timestamps": {
+        "created": "2025-01-13T11:15:00.000Z",
+        "updated": "2025-01-17T14:00:00.000Z",
+        "shipped": "2025-01-14T10:30:00.000Z"
+      }
+    }
+  ],
+  "settings": {
+    "autoProcess": true,
+    "sendNotifications": true,
+    "trackingEnabled": true,
+    "autoComplete": true,
+    "timezone": "America/Costa_Rica",
+    "currency": "CRC",
+    "taxRate": 0,
+    "freeShippingThreshold": 500000
+  },
+  "analytics": {
+    "conversionRate": 3.2,
+    "abandonedCarts": 5,
+    "averageOrderValue": 725000,
+    "topSellingProduct": "prod_003",
+    "topPaymentMethod": "credit_card",
+    "topShippingMethod": "standard",
+    "customerRetentionRate": 68.5,
+    "revenueGrowth": 15.2
+  }
+}
