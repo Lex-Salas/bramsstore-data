@@ -1,0 +1,279 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-01-17T21:30:00.000Z",
+    "updatedBy": "admin",
+    "totalProducts": 3,
+    "totalValue": 1975000,
+    "totalStock": 48,
+    "lowStockThreshold": 5,
+    "currency": "CRC",
+    "syncStatus": "synced"
+  },
+  "products": [
+    {
+      "id": "prod_001",
+      "sku": "IP15P-128",
+      "name": "iPhone 15 Pro",
+      "slug": "iphone-15-pro-128gb",
+      "description": "Último modelo con chip A17 Pro, 128GB de almacenamiento, cámara profesional",
+      "shortDescription": "iPhone 15 Pro con chip A17 Pro",
+      "category": {
+        "id": "smartphones",
+        "name": "Smartphones",
+        "slug": "smartphones"
+      },
+      "brand": "Apple",
+      "model": "iPhone 15 Pro",
+      "pricing": {
+        "cost": 500000,
+        "price": 650000,
+        "currency": "CRC",
+        "profit": 150000,
+        "profitMargin": 23.08,
+        "discountPrice": null,
+        "discountPercentage": 0
+      },
+      "inventory": {
+        "stock": 15,
+        "reserved": 2,
+        "available": 13,
+        "lowStockAlert": true,
+        "reorderLevel": 5,
+        "maxStock": 50,
+        "warehouse": "WH-001"
+      },
+      "media": {
+        "primaryImage": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=500&h=500&fit=crop",
+        "images": [
+          "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=500&h=500&fit=crop",
+          "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=500&h=500&fit=crop&auto=format&q=80"
+        ],
+        "video": null
+      },
+      "specifications": {
+        "storage": "128GB",
+        "ram": "8GB",
+        "screen": "6.1 pulgadas",
+        "camera": "48MP",
+        "battery": "3274 mAh",
+        "os": "iOS 17"
+      },
+      "seo": {
+        "metaTitle": "iPhone 15 Pro 128GB - BramsStore Costa Rica",
+        "metaDescription": "Compra el iPhone 15 Pro con chip A17 Pro en BramsStore. Envío gratis a toda Costa Rica.",
+        "keywords": ["iphone", "apple", "smartphone", "costa rica"]
+      },
+      "sales": {
+        "totalSold": 45,
+        "revenue": 29250000,
+        "lastSale": "2025-01-17T20:15:00.000Z",
+        "averageRating": 4.8,
+        "reviewCount": 23
+      },
+      "status": {
+        "active": true,
+        "featured": true,
+        "inStock": true,
+        "visibility": "public"
+      },
+      "timestamps": {
+        "created": "2024-12-01T10:00:00.000Z",
+        "updated": "2025-01-17T21:00:00.000Z",
+        "createdBy": "admin",
+        "updatedBy": "carlos_manager"
+      }
+    },
+    {
+      "id": "prod_002",
+      "sku": "MBP14-M3",
+      "name": "MacBook Pro 14\"",
+      "slug": "macbook-pro-14-m3",
+      "description": "M3 chip, 16GB RAM, 512GB SSD, pantalla Retina",
+      "shortDescription": "MacBook Pro 14\" con chip M3",
+      "category": {
+        "id": "laptops",
+        "name": "Laptops",
+        "slug": "laptops"
+      },
+      "brand": "Apple",
+      "model": "MacBook Pro 14",
+      "pricing": {
+        "cost": 900000,
+        "price": 1200000,
+        "currency": "CRC",
+        "profit": 300000,
+        "profitMargin": 25.0,
+        "discountPrice": null,
+        "discountPercentage": 0
+      },
+      "inventory": {
+        "stock": 8,
+        "reserved": 1,
+        "available": 7,
+        "lowStockAlert": true,
+        "reorderLevel": 3,
+        "maxStock": 20,
+        "warehouse": "WH-001"
+      },
+      "media": {
+        "primaryImage": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=500&h=500&fit=crop",
+        "images": [
+          "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=500&h=500&fit=crop"
+        ],
+        "video": null
+      },
+      "specifications": {
+        "processor": "Apple M3",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "screen": "14.2 pulgadas Retina",
+        "gpu": "M3 GPU 10-core",
+        "ports": "3x Thunderbolt 4"
+      },
+      "seo": {
+        "metaTitle": "MacBook Pro 14\" M3 - BramsStore Costa Rica",
+        "metaDescription": "MacBook Pro 14\" con chip M3, 16GB RAM y 512GB SSD. La mejor laptop para profesionales.",
+        "keywords": ["macbook", "apple", "laptop", "m3", "costa rica"]
+      },
+      "sales": {
+        "totalSold": 23,
+        "revenue": 27600000,
+        "lastSale": "2025-01-16T14:30:00.000Z",
+        "averageRating": 4.9,
+        "reviewCount": 18
+      },
+      "status": {
+        "active": true,
+        "featured": true,
+        "inStock": true,
+        "visibility": "public"
+      },
+      "timestamps": {
+        "created": "2024-11-15T09:00:00.000Z",
+        "updated": "2025-01-17T19:45:00.000Z",
+        "createdBy": "admin",
+        "updatedBy": "admin"
+      }
+    },
+    {
+      "id": "prod_003",
+      "sku": "APP2-WHITE",
+      "name": "AirPods Pro 2",
+      "slug": "airpods-pro-2-white",
+      "description": "Cancelación de ruido activa, estuche de carga MagSafe",
+      "shortDescription": "AirPods Pro 2 con cancelación de ruido",
+      "category": {
+        "id": "accesorios",
+        "name": "Accesorios",
+        "slug": "accesorios"
+      },
+      "brand": "Apple",
+      "model": "AirPods Pro 2",
+      "pricing": {
+        "cost": 80000,
+        "price": 125000,
+        "currency": "CRC",
+        "profit": 45000,
+        "profitMargin": 36.0,
+        "discountPrice": 115000,
+        "discountPercentage": 8
+      },
+      "inventory": {
+        "stock": 25,
+        "reserved": 3,
+        "available": 22,
+        "lowStockAlert": false,
+        "reorderLevel": 10,
+        "maxStock": 100,
+        "warehouse": "WH-001"
+      },
+      "media": {
+        "primaryImage": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=500&h=500&fit=crop",
+        "images": [
+          "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=500&h=500&fit=crop"
+        ],
+        "video": null
+      },
+      "specifications": {
+        "connectivity": "Bluetooth 5.3",
+        "battery": "6 horas + 24h con estuche",
+        "features": "Cancelación activa de ruido",
+        "compatibility": "iPhone, iPad, Mac",
+        "charging": "MagSafe, Lightning, Qi",
+        "resistance": "IPX4"
+      },
+      "seo": {
+        "metaTitle": "AirPods Pro 2 - Cancelación de Ruido | BramsStore",
+        "metaDescription": "AirPods Pro 2 con cancelación activa de ruido y estuche MagSafe. Envío gratis Costa Rica.",
+        "keywords": ["airpods", "apple", "auriculares", "pro", "costa rica"]
+      },
+      "sales": {
+        "totalSold": 78,
+        "revenue": 9750000,
+        "lastSale": "2025-01-17T18:20:00.000Z",
+        "averageRating": 4.7,
+        "reviewCount": 45
+      },
+      "status": {
+        "active": true,
+        "featured": false,
+        "inStock": true,
+        "visibility": "public"
+      },
+      "timestamps": {
+        "created": "2024-10-20T11:00:00.000Z",
+        "updated": "2025-01-17T21:30:00.000Z",
+        "createdBy": "admin",
+        "updatedBy": "ana_editor"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "smartphones",
+      "name": "Smartphones",
+      "slug": "smartphones",
+      "description": "Los mejores smartphones del mercado",
+      "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=300&h=200&fit=crop",
+      "productCount": 1,
+      "active": true,
+      "featured": true,
+      "seoTitle": "Smartphones | BramsStore Costa Rica",
+      "seoDescription": "Compra los mejores smartphones en Costa Rica con garantía y envío gratis."
+    },
+    {
+      "id": "laptops",
+      "name": "Laptops",
+      "slug": "laptops",
+      "description": "Laptops de alta gama para profesionales",
+      "image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=300&h=200&fit=crop",
+      "productCount": 1,
+      "active": true,
+      "featured": true,
+      "seoTitle": "Laptops | BramsStore Costa Rica",
+      "seoDescription": "Las mejores laptops para trabajo y gaming en Costa Rica."
+    },
+    {
+      "id": "accesorios",
+      "name": "Accesorios",
+      "slug": "accesorios",
+      "description": "Accesorios tecnológicos de calidad",
+      "image": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=300&h=200&fit=crop",
+      "productCount": 1,
+      "active": true,
+      "featured": false,
+      "seoTitle": "Accesorios Tecnológicos | BramsStore",
+      "seoDescription": "Encuentra los mejores accesorios para tus dispositivos Apple."
+    }
+  ],
+  "settings": {
+    "autoSync": true,
+    "syncInterval": 30,
+    "backupEnabled": true,
+    "compressionEnabled": false,
+    "encryption": false,
+    "apiVersion": "v1",
+    "timezone": "America/Costa_Rica"
+  }
+}
